@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <style>
+      /* this is CSS. It's not HTML. It's different */
+      body {
+        text-align: center;
+      }
+
+      p {
+        font-family: courier;
+      }
+
+      h1 {
+        font-family: sans-serif;
+      }
+
+      html {
+        /* search for "HTML color names, to find more (https://www.w3schools.com/tags/ref_colornames.asp)" */
+        background: LightGreen;
+      }
+
+      body {
+        border: 3px solid DarkSlateBlue;
+        margin: 100px;
+        padding: 20px;
+        border-radius: 15px;
+      }
+
+      a {
+        font-size: 25px;
+        font-weight: bold;
+        display: block;
+      }
+
+      ol {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Hello World</h1>
+    <p>this is a test paragraph tag</p>
+    <!-- this is a comment -->
+    <!-- Comments won't show up in your browser -->
+    <!-- Comments can span multiple lines and
+  they're used to add notes to your site's code
+  that only web developers can read -->
+
+    <h2>Use this form to perFORM magic</h2>
+    <form>
+      <p>Write your name in here:</p>
+      <input />
+      <button type="button" name="button" onclick="changeHTML()">
+        Press This Button
+      </button>
+      <button
+        type="button"
+        onclick="document.getElementById('heading').style.color='blue'"
+      >
+        Make Text Blue
+      </button>
+    </form>
+    <h2>This image is on my computer</h2>
+    <img src="dog.jpg" width="300" alt="dog" />
+    <h2 id="heading">This image was stolen from Wikipedia</h2>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Golden_retriever_eating_pigs_foot.jpg/340px-Golden_retriever_eating_pigs_foot.jpg"
+      width="300"
+      alt="dog"
+    />
+    <p>This image (above) on the public internet</p>
+    <hr />
+    <ol>
+      <li><a href="https://google.com">Go checkout Google</a></li>
+      <li><a href="two.html">Welcome to my second web page</a></li>
+      <li><a href="#heading">Link to the wikipedia park of this page</a></li>
+    </ol>
+  </body>
+  <script>
+    // This is javascript not HTML or CSS. It's different too.
+    // It's a "programming language" and use to write programs.
+
+    // alert("hello, how are you? ");
+
+    // document.getElementById("heading").innerHTML = "Hello JavaScript";
+
+    // function changeHTML() {
+    //   document.getElementById("heading").innerHTML = "Thank you for typing an answer. Here is a random number: " + Math.random();
+    // }
+  </script>
+</html>
