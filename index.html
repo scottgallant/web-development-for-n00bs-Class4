@@ -1,69 +1,85 @@
 <html>
-
-<head>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
 
     <style>
-        body {
-            background: purple;
-            font-family: 'Lobster', cursive;
-        }
-        h1 {
-        }
-        p {
-            color: blue;
-        }
-        div {
-            border-width: 5px;
-            border-color: white;
-            border-style: dashed;
-            width: 500px;
-            margin: auto;
-            padding: 30px;
-            background: teal;
-        }
+      body {
+        background: #aaaaaa;
+        font-family: Lora, Georgia, serif;
+        color: #28282a;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: 'Lobster', cursive;
+      }
+      div.main-box {
+        width: 500px;
+        margin: auto;
+        padding: 30px;
+        background: #eeeeee;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      }
+      div.title-box {
+        border: 1px solid #28282a;
+        padding: 10px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <div>
-        <h1>Hello World!</h1>
-    
-        <!-- this is a comment -->
-
-        <ul type="circle">
-            <li>this is a list item</li>
-            <li>this is another one</li>
-        </ul>
-
-        <p>This is a class for future programmers</p>
-        <h2>this is a level 2 heading</h1>
-        <input placeholder="Put your email here" value="test" disabled />
-        <button>press me</button>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Evan_Peters_by_Gage_Skidmore_3.jpg" width="100" />
-        <br>
-        <img src="https://images.unsplash.com/photo-1531722569936-825d3dd91b15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="200" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Dog_anatomy_lateral_skeleton_view.jpg" width="200" />
+  <body>
+    <div class="main-box">
+      <div class="title-box">
+        <h1>Evan Peters Fan Page</h1>
+        <a href="serena-williams.html">Go to Serena Williams</a>
+      </div>
+      <!-- this is a comment -->
+      <p>What I like about Evan P.</p>
+      <ul type="circle">
+        <li>He's an actor</li>
+        <li>He engaged or dated Emma Roberts</li>
+      </ul>
+      <input placeholder="Put your email here" value="test" disabled />
+      <button>press me</button>
+      <br />
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/0/05/Evan_Peters_by_Gage_Skidmore_3.jpg"
+        width="100"
+      />
+      <br />
+      <img
+        src="https://images.unsplash.com/photo-1531722569936-825d3dd91b15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        width="200"
+      />
     </div>
-</body>
-<!-- 
+  </body>
+  <!-- 
     We covered 
     * Add another div inside my div. See unwanted box styles again.  Give main div a class. 
     * Clean it up and actually write content
         * Make background white. Body margin 0. remove border, add box shadow. body >font Lora, Georgia, serif. 
         Body > bg color: #efefef; h1,h2,h3: lobster (and black). body color: #28282A. 
-        * Make text
+        * copy and paste box shadow from this: https://copy-paste-css.com/box-shadows 
+        * Make fan page content
+    * 10 minutes of "free play" where they can work on their designs.
     * Make link to page 2: a new fan page (Maybe a female athlete/author?)
         * Link goes 
+
+        WE STOPPED HERE 
+
         * Add content and link back to page 1
         * After linking back and forth, teach them about URLs
         * Then Go to GitHub and publish via GitHub pages. 
         * Tell student to send me their URL and I can bring it up on the big screen
     * JS!
         * onclick="alert('hello, how are you? ')"
+        * make js do more stuff (see final.html)
+    * Publish our pages! 
+        * Go to GitHub and enabled github pages. 
     -->
 </html>
-
